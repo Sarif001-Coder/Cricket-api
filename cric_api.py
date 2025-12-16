@@ -5,7 +5,7 @@ import requests
 url2 = "https://Cricbuzz-Official-Cricket-API.proxy-production.allthingsdev.co/matches/upcoming"
 
 HEADERS = {
-    "x-apihub-key": "UUq-DZR6PF-1z2I4p07mnCtArZ5zp9wa1TNCziv8fU01c2ucld",
+    "x-apihub-key": "UUq",
     "x-apihub-host": "Cricbuzz-Official-Cricket-API.allthingsdev.co",
     "x-apihub-endpoint": "f0e25fa6-e8a8-47f7-affb-db42c580e582"
 }
@@ -75,4 +75,5 @@ def Future_match():
 #             "team2": matchinfo["team2"],
 #             "date": matchinfo["date"]
 #         })
+
 #     return parsed
